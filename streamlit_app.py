@@ -96,7 +96,7 @@ def main():
             "center": "title",
             "right": "dayGridMonth,dayGridWeek"
         },
-        "initialView": "dayGridMonth",
+        "initialView": "dayGridWeek",
         "selectable": True,
         "selectMirror": True,
         "dayMaxEvents": True,
