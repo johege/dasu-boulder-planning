@@ -102,15 +102,6 @@ def main():
         "dayMaxEvents": True,
         "weekNumbers": True,
         "navLinks": True,
-        "windowResize": """
-            function(view) {
-                if (window.innerWidth < 768) {  # Anpassung für Smartphones
-                    view.calendar.changeView('dayGridWeek');  # Wochenansicht für kleine Bildschirme
-                } else {
-                    view.calendar.changeView('dayGridMonth');  # Monatsansicht für größere Bildschirme
-                }
-            }
-        """
     }
 
     
